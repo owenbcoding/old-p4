@@ -49,7 +49,7 @@ python3 manage.py runsever
 - For setting up the database
 - pip3 install psycopg2-binary
 - pip3 install gunicorn
-- pip3 freeze --local
+- pip3 freeze --local > requirements.txt
 - pip3 install dj_database_url
 - pip3 install dj3-cloudinary-storage
 
