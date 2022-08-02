@@ -52,4 +52,5 @@ python3 manage.py runsever
 - pip3 freeze --local > requirements.txt
 - pip3 install dj_database_url
 - pip3 install dj3-cloudinary-storage
+Affter installing the requirements you need to migrate the changes to the database
 
