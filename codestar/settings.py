@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
+    'cloudinary',
     'blog'
 ]
 
@@ -89,8 +91,8 @@ DATABASES = {
     'default': dj_database_url.config(),
 }
 
- # postgres://dspxyvfksevsms:7dc75bfc70f7323bf560272e3147959248ce41b54ac4444aff7f37b93a2b3ce6@ec2-176-34-215-248.eu-west-1.compute.amazonaws.com:5432/d923q7rf5lb5eq
-    # 'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+# postgres://dspxyvfksevsms:7dc75bfc70f7323bf560272e3147959248ce41b54ac4444aff7f37b93a2b3ce6@ec2-176-34-215-248.eu-west-1.compute.amazonaws.com:5432/d923q7rf5lb5eq
+# 'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -129,6 +131,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
