@@ -19,6 +19,13 @@ Devstories is a blog site for developers kinda like instagram but instead of pos
 
 ![BalsamiqWireframes_gonOFw2qC1](https://user-images.githubusercontent.com/43074374/179643218-4e8228af-937c-4df1-9885-fe73bf36658f.png)
 
+# Technologies Used
+- HTML
+- Bootstrap & CSS
+- Django 
+- Postgres SQL
+- Cloudinary 
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
