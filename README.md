@@ -40,6 +40,12 @@ To run a backend Python file, type `python3 app.py`, if your Python file is name
 
 python3 manage.py runsever 
 
+# Steps For setting up skeleton project
+- Create the heroku App
+- Attach the PostgreSQL Database
+- Prepare our enviroment and settings.py file
+- Get our static and media files stored on cloudinary
+
 # For testing & Setting up Database stuff
 - Migration commands for Setting up the data base
 - python3 manage.py runsever
