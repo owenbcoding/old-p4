@@ -51,5 +51,5 @@ python3 manage.py runsever
 - pip3 install gunicorn
 - pip3 freeze --local
 - pip3 install dj_database_url
-
+- pip3 install dj3-cloudinary-storage
 
