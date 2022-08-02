@@ -1,1 +1,1 @@
-web: guincorn app-devstories.wsgi
+web: guincorn codestar.wsgi
