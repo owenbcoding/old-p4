@@ -3,6 +3,10 @@ Devstories is a blog site for developers kinda like instagram but instead of pos
 
 - Am I resonsive image here
 
+# User Stories
+
+# ER diagram
+
 # Wireframes
 ## Mobile
 
