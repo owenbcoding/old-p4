@@ -4,6 +4,10 @@ Devstories is a blog site for developers kinda like instagram but instead of pos
 - Am I resonsive image here
 
 ## User Stories
+- A user will be able to sign up on the website as a memember
+- A user will be able to post written content on the site
+- A user will be able to Edit Update and delete their own post
+- A user will be able to Like and Comment on A blog post on
 
 # ER diagram
 
