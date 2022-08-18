@@ -93,10 +93,14 @@ DATABASES = {
     'default': dj_database_url.config(),
 }
 
+#   'CLOUD_NAME': os.environ.get('CLOUDINARY_CLOUD_NAME'),
+#   'API_KEY': os.environ.get('CLOUDINARY_API_KEY'),
+#   'API_SECRET': os.environ.get('CLOUDINARY_API_SECRET'),
+
 CLOUDINARY_STORAGE = { 
-    'CLOUD_NAME': os.environ.get('CLOUDINARY_CLOUD_NAME'),
-    'API_KEY': os.environ.get('CLOUDINARY_API_KEY'),
-    'API_SECRET': os.environ.get('CLOUDINARY_API_SECRET'),
+     'CLOUD_NAME': os.environ.get('ddxcap4ba'),
+     'API_KEY': os.environ.get('597656133755996'),
+     'API_SECRET': os.environ.get('1h2XK6Lm_rS19-fu-JMpwy8jXxk'),
 }
 
 # postgres://dspxyvfksevsms:7dc75bfc70f7323bf560272e3147959248ce41b54ac4444aff7f37b93a2b3ce6@ec2-176-34-215-248.eu-west-1.compute.amazonaws.com:5432/d923q7rf5lb5eq
