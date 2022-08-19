@@ -30,7 +30,7 @@ Devstories is a blog site for developers kinda like instagram but instead of pos
 # Technologies Used
 - HTML
 - Bootstrap & CSS
-- Django 
+- Django / django-allauth
 - Postgres SQL
 - Cloudinary 
 
