@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic, View
 from .models import Post
+from .forms import CommentForm
 
 # Create your views here.
 def index(request):
@@ -31,7 +32,6 @@ class PostDetail(View):
              "post": post,
              "comments": comments,
              "liked": liked,
-            #  "commented": False,
-            #  "comment_form": CommentForm()
+             "comment_form": CommentForm() 
             },
         )
