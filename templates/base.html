@@ -4,7 +4,7 @@
 <html class="h-100">
 
 <head>
-    <title>Devstories site</title>
+    <title>Devstories | Home</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -42,14 +42,21 @@
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Logout</a>
+                        <form method="post" action="{% url 'account_logout' %}">
+                            <!-- Cross site request forgery -->
+                            {% csrf_token %}
+                            {% if redirect_field_value %}
+                            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+                            {% endif %}
+                            <button class="nav-link text-white" type="submit">logout</button>
+                          </form>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Register</a>
+                        <a class="nav-link text-white" href="account/signup">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Login</a>
+                        <a class="nav-link text-white" href="account/login">Login</a>
                     </li>
                     {% endif %}
                 </ul>
