@@ -196,6 +196,16 @@ Code Institute - I took inspiration to this project from the Code Institute vide
 ## GitHub:
 
 ## GitHub & Gitpod
+For this project I used Code Institutes Python template that can be found here https://github.com/Code-Institute-Org/python-essentials-template.
+
+Steps to create a new repository in Github:
+
+Sign in or sign up to GitHub https://github.com/home.
+When you have done that, you will see "new" up in the left corner. Like this: Screenshot new repository button github
+Select in the dropdown menu under Repository template if you for example would like to use the template provided by Code Institute that I did for this project. If you don't see it in the dropdown menu click this link to get to the one provided by Code Institute and click Use this template to the left of the green Gitpod button.
+When you have done that, give the repository a name. Leave it public if you want anyone on the internet to see your repository (I always do).
+Click create repository.
+Remember to use the commit commands that I explained above so your hard work doesn't get lost if anything happens to Gitpod.
 
 ## Heroku
 
