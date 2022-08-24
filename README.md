@@ -83,10 +83,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa
 ![chrome_V5XHjyvmhb](https://user-images.githubusercontent.com/43074374/186414883-a1a9f4bb-e5b8-4638-a4ea-4bc2e034dc8d.png)
 
 ### Not authenticated:
-(Image Here)
+![chrome_ZcfXgV6qxZ](https://user-images.githubusercontent.com/43074374/186425288-8bd55366-63c7-479e-9a0e-ae2ac7f585bf.png)
 
 ### Authenticated:
-(Image Here)
+![chrome_Akr1NaKYCz](https://user-images.githubusercontent.com/43074374/186420496-da016822-e0ec-4b81-86eb-89a49d6c3239.png)
 
 ### Not authenticated:
 (Image Here)
