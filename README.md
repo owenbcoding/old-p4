@@ -80,7 +80,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 ## Start Screen
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
 
-(Image Here)
+![chrome_V5XHjyvmhb](https://user-images.githubusercontent.com/43074374/186414883-a1a9f4bb-e5b8-4638-a4ea-4bc2e034dc8d.png)
 
 ### Not authenticated:
 (Image Here)
@@ -104,11 +104,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 ![chrome_AgcrCwMR6o](https://user-images.githubusercontent.com/43074374/186414631-7e98ef47-4a63-4fc2-bbb7-e89b0c3f5e34.png)
 
 ###  Post Modal:
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
-
-![chrome_V5XHjyvmhb](https://user-images.githubusercontent.com/43074374/186414883-a1a9f4bb-e5b8-4638-a4ea-4bc2e034dc8d.png)
-
-### Post: 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 (Image Here)
