@@ -88,14 +88,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa
 ### Authenticated:
 ![chrome_Akr1NaKYCz](https://user-images.githubusercontent.com/43074374/186420496-da016822-e0ec-4b81-86eb-89a49d6c3239.png)
 
-### Not authenticated:
-(Image Here)
-
-### Authenticated:
-(Image Here)
-
 ### Footer:
-
+![chrome_pyyN8XexhH](https://user-images.githubusercontent.com/43074374/186425816-be8616ef-4f8d-467c-a967-3ae0ffc9b799.png)
 
 # Navbar
 ### Navbar links: 
