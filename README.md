@@ -133,7 +133,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 ![chrome_7A57fn8o1V](https://user-images.githubusercontent.com/43074374/186416411-a1f02866-b9f5-40e8-9333-82f507b3f83f.png)
 
 ### Logout:
-
+![chrome_Akr1NaKYCz](https://user-images.githubusercontent.com/43074374/186420496-da016822-e0ec-4b81-86eb-89a49d6c3239.png)
 
 ## Blog Details, authenticated and creator of:
 (Image Here)
