@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 
 import dj_database_url
+import mimetypes
 if os.path.isfile('env.py'):
     import env
 
@@ -61,6 +62,7 @@ CRISPY_TEMPLATE_PACK = 'uni_form'
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
+mimetypes.add_type("text/css", ".css", True)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
