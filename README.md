@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 ## Github - User Project Kanban Board
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
-(Kanban Image)
+![chrome_beY8TXdeB9](https://user-images.githubusercontent.com/43074374/186406278-f5c1bbcf-76e2-4b87-b6e1-fe1304930136.png)
 
 # UX
 
