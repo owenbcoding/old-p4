@@ -125,15 +125,15 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 ### Register account:
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
-(Image Here)
+![chrome_uQllWik7Nl](https://user-images.githubusercontent.com/43074374/186416028-22e858f5-696a-4dde-b0d6-cd6bc37a7463.png)
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 ### Login:
-(Image Here)
+![chrome_7A57fn8o1V](https://user-images.githubusercontent.com/43074374/186416411-a1f02866-b9f5-40e8-9333-82f507b3f83f.png)
 
 ### Logout:
-(Image Here)
+
 
 ## Blog Details, authenticated and creator of:
 (Image Here)
