@@ -136,7 +136,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 ![chrome_Akr1NaKYCz](https://user-images.githubusercontent.com/43074374/186420496-da016822-e0ec-4b81-86eb-89a49d6c3239.png)
 
 ## Blog Details, authenticated and creator of:
-(Image Here)
+![chrome_IK7ymkU4U9](https://user-images.githubusercontent.com/43074374/186421214-30fd9ed5-2f9e-40f0-9c05-87445de404dc.png)
 
 ## Post Blog not authenticated or creator of blog:
 (Image Here)
