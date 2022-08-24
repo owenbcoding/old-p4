@@ -63,6 +63,7 @@ CRISPY_TEMPLATE_PACK = 'uni_form'
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 mimetypes.add_type("text/css", ".css", True)
+mimetypes.add_type("text/html", ".css", True)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
