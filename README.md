@@ -108,16 +108,16 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 
 ![chrome_V5XHjyvmhb](https://user-images.githubusercontent.com/43074374/186414883-a1a9f4bb-e5b8-4638-a4ea-4bc2e034dc8d.png)
 
-### Add Post: 
+### Post: 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 (Image Here)
 
-### Add Post, not authenticated:
+### Post, not authenticated:
 
 (Image Here)
 
-### Add Post, authenticated:
+### Post, authenticated:
 
 (Image Here)
 
