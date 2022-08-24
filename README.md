@@ -1,52 +1,136 @@
 # Introduction
 Devstories is a blog site for developers kinda like instagram but instead of posting pictures devs can talk about their projects etc and sign up on it and post pictures of their projects if they want to.
 
-- Am I resonsive image here
+- ( Am I resonsive image here )
 
-## User Stories
-- A user will be able to sign up on the website as a memember
-- A user will be able to post written content on the site
-- A user will be able to Edit Update and delete their own post
-- A user will be able to Like and Comment on A blog post
-
-# ER diagram
-
-# Wireframes
-## Mobile
-
-![BalsamiqWireframes_955zaPLYtz](https://user-images.githubusercontent.com/43074374/179642827-41d3060b-3b33-457e-a81d-18760e198bbf.png)
-
-## Tablet 
-
-![BalsamiqWireframes_MqBanEFTby](https://user-images.githubusercontent.com/43074374/179642969-70eaefb1-9c0a-48b1-b7c6-b56e51ecb592.png)
+# Project Four - Devstories
 
 
-## Desktop
+### Intention
 
-![BalsamiqWireframes_AuQPsYYN0y](https://user-images.githubusercontent.com/43074374/179643135-b6b56729-cc39-450c-9e99-f42ee4b1ed90.png)
+# Planning 
 
-![BalsamiqWireframes_gonOFw2qC1](https://user-images.githubusercontent.com/43074374/179643218-4e8228af-937c-4df1-9885-fe73bf36658f.png)
+# How To Navigate The Website
+
+Devstories - Balsamiq Wireframe
+
+# Github - User Project Kanban Board
+
+# UX
+
+User Stories: 
+As a guest I would like to be able to:
+ 
+ - Register an account using username, email, and password.
+ - View a List of the current blogs on the home page.
+ - Will be able to read the detailed version of the blog.
+ - Will be to view comments and likes on a post.
+
+As a user I would like to be able to:
+
+ - Login into my account.
+ - blog about their own devevelopment projects.
+ - edit delete and create my own content on a blog.
+ - Comment and like a post that you like.
+
+As a admin I need to be able to: 
+
+ - Manage the list of users who sign up to the site.
+ - Approve users comments on the website.
+ - Post a blog about the site or projects.
+
+# Website Design
+
+## Design
+
+## Logic
+
+Devstories - Database Schema
+
+Devstories - Flow Diagram
+
+# Existing Features
+## Start Screen
+
+### Not authenticated:
+
+### Authenticated:
+
+### Not authenticated:
+
+### Authenticated:
+
+### Footer:
+
+# Navbar
+### Navbar links:
+
+### About modal:
+
+### Add Post, not authenticated:
+
+### Add Post, authenticated:
+
+## User:
+### Register account:
+
+### Login:
+
+### Logout:
+
+## Blogs
+
+- Home page blog image
+- Detailed blog page image
+
+# Future Features
 
 # Technologies Used
+
+## Programming Languages
+
+## Frameworks & Programs
+
 - HTML
 - Bootstrap & CSS
 - Django / django-allauth
 - Postgres SQL
 - Cloudinary 
 
-## Gitpod Reminders
+# Testing
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Bugs
 
-`python3 -m http.server`
+- Bug 1
 
-A blue button should appear to click: _Make Public_,
+- Solution Bug 1
 
-Another blue button should appear to click: _Open Browser_.
+- Bug 2 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Solution Bug 2
 
-python3 manage.py runsever 
+- Bug 3 
+
+- Soultion Bug 3
+
+# Unfixed Bugs
+
+# Credits
+### Media
+
+### Inspiration for this project
+
+### Help from Stack Overflow
+
+# Deployment
+
+## GitHub:
+
+## GitHub & Gitpod
+
+## Heroku
+
+## Support
 
 # Steps For setting up skeleton project
 - Create the heroku App
