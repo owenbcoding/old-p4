@@ -1,20 +1,34 @@
-# Introduction
+# Devstories
 Devstories is a blog site for developers kinda like instagram but instead of posting pictures devs can talk about their projects etc and sign up on it and post pictures of their projects if they want to.
 
-- ( Am I resonsive image here )
+( Am I resonsive image )
 
 # Project Four - Devstories
 
-
 ### Intention
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
 
-# Planning 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+### Features I aimed to achieve with this project:
+ - 
+ - 
+ - 
 
 # How To Navigate The Website
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
+
+# Planning 
 Devstories - Balsamiq Wireframe
 
-# Github - User Project Kanban Board
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+
+## Github - User Project Kanban Board
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+(Kanban Image)
 
 # UX
 
@@ -46,46 +60,107 @@ As a admin I need to be able to:
 ## Logic
 
 Devstories - Database Schema
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+(Database Schema Image)
 
 Devstories - Flow Diagram
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+(Flow Diagram Image)
+
+### Explain flow diagram:
+
 
 # Existing Features
 ## Start Screen
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
+
+(Image Here)
 
 ### Not authenticated:
+(Image Here)
 
 ### Authenticated:
+(Image Here)
 
 ### Not authenticated:
+(Image Here)
 
 ### Authenticated:
+(Image Here)
 
 ### Footer:
 
+
 # Navbar
-### Navbar links:
+### Navbar links: 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+(Image Here)
 
 ### About modal:
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+(Image Here)
+
+### Add Post: 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+(Image Here)
 
 ### Add Post, not authenticated:
 
+(Image Here)
+
 ### Add Post, authenticated:
+
+(Image Here)
 
 ## User:
 ### Register account:
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+(Image Here)
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 ### Login:
+(Image Here)
 
 ### Logout:
+(Image Here)
 
-## Blogs
+## Blog Details, authenticated and creator of:
+(Image Here)
+
+## Post Blog not authenticated or creator of blog:
+(Image Here)
+
+## Edit Blog authenticated and creator of blog:
+(Image Here)
+
+## Delete Blog authenticated and creator of blog:
+(Image Here)
 
 - Home page blog image
 - Detailed blog page image
 
 # Future Features
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
 
 # Technologies Used
+- Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+- Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+- Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+- Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+- Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+
+- Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 ## Programming Languages
 
@@ -115,10 +190,11 @@ Devstories - Flow Diagram
 
 # Unfixed Bugs
 
-# Credits
+# Credit 
 ### Media
 
 ### Inspiration for this project
+Code Institute - I took inspiration to this project from the Code Institute videos of I Think Therefore I Blog
 
 ### Help from Stack Overflow
 
