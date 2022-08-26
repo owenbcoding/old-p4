@@ -142,7 +142,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 - Detailed blog page image
 
 # Future Features
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
 
 # Technologies Used
 - HTML / Django Templates: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
@@ -162,14 +161,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa
 - : Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 ## Programming Languages
-
-## Frameworks & Programs
-
 - HTML
-- Bootstrap & CSS
-- Django / django-allauth
-- Postgres SQL
-- Cloudinary 
+- Django / 
 
 # Testing
 
@@ -197,6 +190,10 @@ For the Third Image I want to thank the graphic designer I am working with on a 
 Code Institute - I took inspiration to this project from the Code Institute videos of I Think Therefore I Blog
 
 ### Help from Stack Overflow
+I got alot of help from stack overflow using it to help answer questions or problems I had during the projects development
+
+ - Django all auth docs https://django-allauth.readthedocs.io/en/latest/installation.html : I also used all auth docs to help me with authentication during the project
+ - Djang docs https://www.djangoproject.com/ 
 
 # Deployment
 
