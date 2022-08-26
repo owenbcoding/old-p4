@@ -1,7 +1,9 @@
 # Devstories
-Devstories is a blog site for developers kinda like instagram but instead of posting pictures devs can talk about their projects etc and sign up on it and post pictures of their projects if they want to.
+Devstories basically a blog site for developers where developers can share their projects and talk about their skills and comment and like each others posts
 
 ( Am I resonsive image )
+
+link: 
 
 # Project Four - Devstories
 
