@@ -1,16 +1,13 @@
 # Devstories
 Devstories basically a blog site for developers where developers can share their projects and talk about their skills and comment and like each others posts
 
-( Am I resonsive image )
+( Resonsive image )
 
-link: 
+link: https://app-devstories.herokuapp.com/
 
 # Project Four - Devstories
 
 ### Intention
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 ### Features I aimed to achieve with this project:
  - 
@@ -19,16 +16,12 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 
 # How To Navigate The Website
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
 
 # Planning 
 Devstories - Balsamiq Wireframe
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
-
 
 ## Github - User Project Kanban Board
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 ### Start of Project
 ![chrome_beY8TXdeB9](https://user-images.githubusercontent.com/43074374/186406278-f5c1bbcf-76e2-4b87-b6e1-fe1304930136.png)
@@ -66,12 +59,12 @@ As a admin I need to be able to:
 ## Logic
 
 Devstories - Database Schema
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. 
 
 (Database Schema Image)
 
 Devstories - Flow Diagram
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
 (Flow Diagram Image)
 
@@ -80,7 +73,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 
 # Existing Features
 ## Start Screen
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore. Modi doloribus nemo officia possimus. Praesentium ut numquam a soluta consequuntur ipsa eum ipsam ullam laudantium ducimus sed ad quasi, eveniet doloremque provident non corrupti! Cupiditate neque assumenda cumque aut nobis magni natus veritatis magnam molestias, qui maxime reprehenderit asperiores voluptatibus autem voluptatem non quas, voluptate repellat, ullam id deleniti aliquam doloribus. Tenetur quod, quo quidem earum molestias nemo provident cum sapiente quasi deserunt excepturi!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore.
 
 ![chrome_V5XHjyvmhb](https://user-images.githubusercontent.com/43074374/186414883-a1a9f4bb-e5b8-4638-a4ea-4bc2e034dc8d.png)
 
@@ -95,12 +88,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa
 
 # Navbar
 ### Navbar links: 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. 
 
 ![chrome_AgcrCwMR6o](https://user-images.githubusercontent.com/43074374/186414631-7e98ef47-4a63-4fc2-bbb7-e89b0c3f5e34.png)
 
 ###  Post Modal:
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
 (Image Here)
 
@@ -144,21 +137,21 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 # Future Features
 
 # Technologies Used
-- HTML / Django Templates: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- HTML / Django Templates: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. 
 
-- Django Framwork: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- Django Framwork: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
-- Python For backend: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- Python For backend: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
-- Bootstrap: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- Bootstrap: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
-- Postgres SQL: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- Postgres SQL: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
-- Cloudinary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- Cloudinary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
-- Github: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- Github: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
-- : Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- : Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
 
 ## Programming Languages
 - HTML
@@ -212,7 +205,6 @@ Click create repository.
 Remember to use the commit commands that I explained above so your hard work doesn't get lost if anything happens to Gitpod.
 
 ## Heroku
-
 
 ## Support
 
