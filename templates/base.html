@@ -67,6 +67,15 @@
         </div>
     </nav>
 
+    <div class="container">
+        <div class="row">
+            <div class="col md-8 offset-md-2">
+                {% for message in messages %}
+                {% end for %}
+            </div>
+        </div>
+    </div>
+
     <main class="flex-shrink-0 main-bg">
         {% block content %}
         <!-- Content Goes here -->
