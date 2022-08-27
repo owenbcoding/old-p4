@@ -9,10 +9,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-
-from pathlib import Path
 import os
 import dj_database_url
+from pathlib import Path
 from django.contrib.messages import constants as messages
 if os.path.isfile('env.py'):
     import env
@@ -50,9 +49,9 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
-    'django_summernote',
     'crispy_forms',
-    'blog'
+    'blog',
+    "django_summernote",
 ]
 
 SITE_ID = 1
