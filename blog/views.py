@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
+#from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
@@ -78,3 +79,35 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+    def create_post(request):
+        """
+        Allow an admin user to create a Blop Post
+        """
+        if request.user:
+
+            if request.method == 'POST':
+                form = PostForm(request.POST, request.FILES)
+                if form.is_valid():
+                    blog_post = form.save(commit=False)
+                    blog_post.author = request.user
+                    blog_post.save()
+                    messages.info(request, 'Blog added successfully!')
+                    return redirect('blog')
+                else:
+                    messages.error(request, 'Please check the form for errors. \
+                        Blog failed to add.')
+            else:
+                form = PostForm()
+        else:
+            messages.error(
+                request, 'Sorry, you do not have permission to do that.')
+            return redirect(reverse('home'))
+
+        template = 'add_blog.html'
+
+        context = {
+            'form': form,
+        }
+
+        return render(request, template, context)
