@@ -1,21 +1,25 @@
 # Devstories
 Devstories basically a blog site for developers where developers can share their projects and talk about their skills and comment and like each others posts
-
-( Resonsive image )
+For some reason the Responsive image didnt work properly 
 
 link: https://app-devstories.herokuapp.com/
 
 # Project Four - Devstories
 
 ### Intention
+My intension for this project was to make a blog site for any developer who whises to blog about their journey or projects they are working on the and discuss things about them in the comment section 
 
 ### Features I aimed to achieve with this project:
- - 
- - 
- - 
+ -  I aimed to achive a nice easy to navigate site with minimal effort 
+ -  I aimed the site to be driven more towards developers who wish to blog 
+ -  I aimed to bring in more people and people who are new to tech and want to learn more.
 
 # How To Navigate The Website
-
+ 
+ - You start on the home page looking at the blog posts. Then at the top left you have name Home Link Register link and login link.
+ - Once you are logged in you can view the blogs and comment and like the posts and you can click the new post link that should bring you to a creat post page.
+ - You should be able to add an image to your post and post it to the home page on the site.
+ - Users will also have ability to delete or edit their posts
 
 # Planning 
 Devstories - Balsamiq Wireframe
@@ -59,51 +63,38 @@ As a admin I need to be able to:
 ## Logic
 
 Devstories - Database Schema
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. 
 
 (Database Schema Image)
-
-Devstories - Flow Diagram
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
-
-(Flow Diagram Image)
 
 ### Explain flow diagram:
 
 
 # Existing Features
+# Navbar
+### Navbar links: 
+ - The Nav bar consists of 3 main links and a caption on the far right
+
+![chrome_AgcrCwMR6o](https://user-images.githubusercontent.com/43074374/186414631-7e98ef47-4a63-4fc2-bbb7-e89b0c3f5e34.png)
+
+
 ## Start Screen
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum pariatur culpa voluptates illo, adipisci eligendi perspiciatis minus labore asperiores cumque fuga ut in deleniti magnam esse error earum quod obcaecati officia, assumenda, expedita eos inventore.
+
+ - The start screen consists of the main home page with the blogs and navigation if the user is not authenticated
 
 ![chrome_V5XHjyvmhb](https://user-images.githubusercontent.com/43074374/186414883-a1a9f4bb-e5b8-4638-a4ea-4bc2e034dc8d.png)
 
 ### Not authenticated:
+ - what it loooks like if the user is not authenticated
+
 ![chrome_ZcfXgV6qxZ](https://user-images.githubusercontent.com/43074374/186425288-8bd55366-63c7-479e-9a0e-ae2ac7f585bf.png)
 
 ### Authenticated:
-![chrome_Akr1NaKYCz](https://user-images.githubusercontent.com/43074374/186420496-da016822-e0ec-4b81-86eb-89a49d6c3239.png)
+ - what it looks like if the user is authenticated
+
+![chrome_HsAF9staQK](https://user-images.githubusercontent.com/43074374/187064149-8ba81b23-d252-40c6-8660-5ee8079708e4.png)
 
 ### Footer:
 ![chrome_pyyN8XexhH](https://user-images.githubusercontent.com/43074374/186425816-be8616ef-4f8d-467c-a967-3ae0ffc9b799.png)
-
-# Navbar
-### Navbar links: 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. 
-
-![chrome_AgcrCwMR6o](https://user-images.githubusercontent.com/43074374/186414631-7e98ef47-4a63-4fc2-bbb7-e89b0c3f5e34.png)
-
-###  Post Modal:
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
-
-(Image Here)
-
-### Post, not authenticated:
-
-(Image Here)
-
-### Post, authenticated:
-
-(Image Here)
 
 ## User:
 ### Register account:
@@ -114,50 +105,44 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
 ### Login:
-![chrome_7A57fn8o1V](https://user-images.githubusercontent.com/43074374/186416411-a1f02866-b9f5-40e8-9333-82f507b3f83f.png)
+![chrome_71qSONu2yd](https://user-images.githubusercontent.com/43074374/187064285-5cd41954-4937-4859-8c9b-c3d8459cc91d.png)
 
 ### Logout:
-![chrome_Akr1NaKYCz](https://user-images.githubusercontent.com/43074374/186420496-da016822-e0ec-4b81-86eb-89a49d6c3239.png)
+![chrome_HsAF9staQK](https://user-images.githubusercontent.com/43074374/187064149-8ba81b23-d252-40c6-8660-5ee8079708e4.png)
 
 ## Blog Details, authenticated and creator of:
 ![chrome_IK7ymkU4U9](https://user-images.githubusercontent.com/43074374/186421214-30fd9ed5-2f9e-40f0-9c05-87445de404dc.png)
 
-## Post Blog not authenticated or creator of blog:
-(Image Here)
+## Post Blog 
 
-## Edit Blog authenticated and creator of blog:
-(Image Here)
-
-## Delete Blog authenticated and creator of blog:
-(Image Here)
-
-- Home page blog image
-- Detailed blog page image
+- Creat a blog post 
 
 # Future Features
 
+- For Future Features I tend to be adding memebers and user profile images so people can add their profile picture.
+- I also tend to make a friends list so developers can add eachother on site and message eachother about their projects.
+
 # Technologies Used
-- HTML / Django Templates: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. 
+- HTML / Django Templates: I used the html templates for django to generate and render the pages.
 
-- Django Framwork: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
+- Django Framwork: Full stack framework.
 
-- Python For backend: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
+- Python backgend: I used python to manage the backend for the website.
 
-- Bootstrap: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
+- Bootstrap: I used Boostrap for the styling and responsiveness.
 
-- Postgres SQL: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
+- Postgres SQL: I used PosgresSql for the database.
 
-- Cloudinary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
+- Cloudinary: I used cloudinary for storing the images on the site.
 
-- Github: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
+- Github: I used github to backup my code.
 
-- : Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta.
-
-## Programming Languages
-- HTML
-- Django / 
+- Heroku: I used herkou to deploy and launch my website.
 
 # Testing
+
+- For testing I created a user and used that to login and everything seem to work perfectly
+- I also made some test comments and approved them from the admin page that django has
 
 # Bugs
 
@@ -205,27 +190,25 @@ Click create repository.
 Remember to use the commit commands that I explained above so your hard work doesn't get lost if anything happens to Gitpod.
 
 ## Heroku
+For Hosting on Heroku Follow these steps  
 
-## Support
+Go to your Apps in your heroku profile
 
-# Steps For setting up skeleton project
-- Create the heroku App
-- Attach the PostgreSQL Database
-- Prepare our enviroment and settings.py file
-- Get our static and media files stored on cloudinary
+![chrome_hmeiK7pB4i](https://user-images.githubusercontent.com/43074374/187060903-ac072171-ea8f-4530-848f-cb9554f5fbb5.png)
 
-# For testing & Setting up Database stuff
-- Migration commands for Setting up the data base
-- python3 manage.py runsever
-- For testing use, python3 manage.py test
-- python3 manage.py test todo.test_forms(name of file at the end)
-- pip3 install coverage 
-- For setting up the database
-- pip3 install psycopg2-binary
-- pip3 install gunicorn
-- pip3 freeze --local > requirements.txt
-- pip3 install dj_database_url
-- pip3 install dj3-cloudinary-storage
-- python3 manage.py migrate
-Affter installing the requirements you need to migrate the changes to the database
+Then go to this page and select the github button 
+  
+![chrome_NQv83MFCsa](https://user-images.githubusercontent.com/43074374/187060942-fa6d611e-7a60-48e7-a31b-d883557c955b.png)
+
+Then on the same page make sure your on the proper branch of your repo and click the deploy button 
+
+![chrome_jlcavSzU8z](https://user-images.githubusercontent.com/43074374/187061047-406a900c-f2b8-4b5b-864f-8b3de3721e64.png)
+
+
+## Credit 
+
+ - Code Institute for the project starter files : https://github.com/Code-Institute-Solutions/django-blog-starter-files
+
+
+
 
