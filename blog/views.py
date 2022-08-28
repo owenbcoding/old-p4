@@ -1,9 +1,11 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
-#from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.utils.text import slugify
+from django.urls import reverse_lazy
 
 
 class PostList(generic.ListView):
@@ -80,34 +82,50 @@ class PostLike(View):
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
-    def create_post(request):
-        """
-        Allow an admin user to create a Blop Post
-        """
-        if request.user:
+class PostCreateView(LoginRequiredMixin, CreateView):
+    model = Post
+    fields = ["title", "content", "image", "tags"]
 
-            if request.method == 'POST':
-                form = PostForm(request.POST, request.FILES)
-                if form.is_valid():
-                    blog_post = form.save(commit=False)
-                    blog_post.author = request.user
-                    blog_post.save()
-                    messages.info(request, 'Blog added successfully!')
-                    return redirect('blog')
-                else:
-                    messages.error(request, 'Please check the form for errors. \
-                        Blog failed to add.')
-            else:
-                form = PostForm()
-        else:
-            messages.error(
-                request, 'Sorry, you do not have permission to do that.')
-            return redirect(reverse('home'))
+    def get_success_url(self):
+        messages.success(
+            self.request, 'Your post has been created successfully.')
+        return reverse_lazy("core:home")
 
-        template = 'add_blog.html'
+    def form_valid(self, form):
+        obj = form.save(commit=False)
+        obj.author = self.request.user
+        obj.slug = slugify(form.cleaned_data['title'])
+        obj.save()
+        return super().form_valid(form)
 
-        context = {
-            'form': form,
-        }
 
-        return render(request, template, context)
+class PostUpdateView(LoginRequiredMixin, UpdateView):
+    model = Post
+    fields = ["title", "content", "image", "tags"]
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        update = True
+        context['update'] = update
+
+        return context
+
+    def get_success_url(self):
+        messages.success(
+            self.request, 'Your post has been updated successfully.')
+        return reverse_lazy("core:home")
+
+    def get_queryset(self):
+        return self.model.objects.filter(author=self.request.user)
+
+
+class PostDeleteView(LoginRequiredMixin, DeleteView):
+    model = Post
+
+    def get_success_url(self):
+        messages.success(
+            self.request, 'Your post has been deleted successfully.')
+        return reverse_lazy("core:home")
+
+    def get_queryset(self):
+        return self.model.objects.filter(author=self.request.user)
