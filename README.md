@@ -157,18 +157,23 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 - For Basic CRUD opperations I was able to use the admin data base for approving comments creating posts and deleteing posts as shown below
 
 - A user signing in
+
 ![image](https://user-images.githubusercontent.com/43074374/187066893-bfb7adc4-8215-4e47-9d10-879ee5a29160.png)
 
 - Successfull login
+
 ![image](https://user-images.githubusercontent.com/43074374/187066941-37346a2f-d3b4-4122-a044-9fd3d114648b.png)
 
 - Registered Users
+
 ![image](https://user-images.githubusercontent.com/43074374/187066986-958afc89-a895-4cbc-a822-3926446b4901.png)
 
 - Approved Comments
+
 ![image](https://user-images.githubusercontent.com/43074374/187067054-4e469878-25e1-46b7-9991-be09b36bdac4.png)
 
 - Posts added by admin
+
 ![image](https://user-images.githubusercontent.com/43074374/187067088-9f972ae8-157c-4859-8034-f77125933e4c.png)
 
 
