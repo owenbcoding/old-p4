@@ -24,6 +24,14 @@ My intension for this project was to make a blog site for any developer who whis
 # Planning 
 Devstories - Balsamiq Wireframe
 
+- Desktop View 
+
+![BalsamiqWireframes_I87Zo05LXd](https://user-images.githubusercontent.com/43074374/187065389-3ba38110-1f69-4041-8ec6-23006f2d83b0.png)
+
+- Mobile View
+
+![BalsamiqWireframes_04pnexitYF](https://user-images.githubusercontent.com/43074374/187065475-6c22e79e-b841-4a0b-b634-b6352800cb6b.png)
+
 
 ## Github - User Project Kanban Board
 
@@ -65,9 +73,10 @@ As a admin I need to be able to:
 Devstories - Database Schema
 
 (Database Schema Image)
+Before I started to code this project I created a Diagram Entity Relationship - Database Schema using dbdiagram.
+I created this to easier understand the database models that I was going to create for this project.
 
-### Explain flow diagram:
-
+![image](https://user-images.githubusercontent.com/43074374/187066336-94946348-b08e-4b25-b9db-3a320d31719b.png)
 
 # Existing Features
 # Navbar
@@ -143,6 +152,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam 
 
 - For testing I created a user and used that to login and everything seem to work perfectly
 - I also made some test comments and approved them from the admin page that django has
+- For Basic CRUD opperations I was able to use the admin data base for approving comments creating posts and deleteing posts as shown below
 
 # Bugs
 
@@ -173,6 +183,7 @@ I got alot of help from stack overflow using it to help answer questions or prob
  - Django all auth docs https://django-allauth.readthedocs.io/en/latest/installation.html : I also used all auth docs to help me with authentication during the project
  - Djang docs https://www.djangoproject.com/ 
 
+ - Code Institute for the project starter files : https://github.com/Code-Institute-Solutions/django-blog-starter-files
 # Deployment
 
 ## GitHub:
@@ -203,11 +214,6 @@ Then go to this page and select the github button
 Then on the same page make sure your on the proper branch of your repo and click the deploy button 
 
 ![chrome_jlcavSzU8z](https://user-images.githubusercontent.com/43074374/187061047-406a900c-f2b8-4b5b-864f-8b3de3721e64.png)
-
-
-## Credit 
-
- - Code Institute for the project starter files : https://github.com/Code-Institute-Solutions/django-blog-starter-files
 
 
 
