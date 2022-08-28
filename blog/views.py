@@ -87,7 +87,7 @@ def newPost(request):
     c = {}
 
     # Get the template
-    t = loader.get_template('./post_form.html')
+    t = loader.get_template('./new_post.html')
 
     # Get the context
     return HttpResponse(t.render(c, request))
@@ -124,3 +124,49 @@ def create_post(request):
     }
 
     return render(request, template, context)
+
+@login_required
+def edit_blog(request, blog_post_id):
+    """
+    Allow all users to edit the blogs they created
+    """
+    if request.user:
+
+        blog_post = get_object_or_404(Post, pk=blog_post_id)
+
+        if request.method == 'POST':
+            form = PostForm(request.POST, request.FILES, instance=blog_post)
+            if form.is_valid():
+                form.save()
+                messages.success(request, 'Blog post updated successfully!')
+                return redirect('blog')
+            else:
+                messages.error(request, 'Please check the form for errors. \
+                    Blog post failed to update.')
+        else:
+            form = PostForm(instance=blog_post)
+            messages.info(request, f'Editing {blog_post.title}')
+    else:
+        messages.error(request, 'Sorry, you do not have permission for that.')
+        return redirect(reverse('home'))
+
+    template = 'edit_blog.html'
+
+    context = {
+        'form': form,
+        'blog_post': blog_post,
+    }
+
+    return render(request, template, context)
+
+
+def delete_blog(request, blog_post_id):
+    """User can delet their own blog post"""
+    if request.method == "POST":
+        blog_post = get_object_or_404(Post, pk=blog_post_id)
+        blog_post.delete()
+    else:
+        return render(request, 'delete_blog.html')
+    messages.success(request, 'The blog has been deleted successfully!')
+
+    return redirect('blog')
