@@ -107,13 +107,14 @@ I created this to easier understand the database models that I was going to crea
 
 ## User:
 ### Register account:
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
+- This is where a user registers their account
 
 ![chrome_uQllWik7Nl](https://user-images.githubusercontent.com/43074374/186416028-22e858f5-696a-4dde-b0d6-cd6bc37a7463.png)
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis aperiam qui libero placeat quis iusto enim laudantium blanditiis a nobis veniam ipsa ipsam ex iure, sit soluta. Facere laudantium ipsam blanditiis dignissimos iure maxime. Rem animi exercitationem sapiente rerum alias possimus voluptates laborum saepe harum soluta, fugit maiores perferendis?
 
-### Login:
+### Login to account:
+- This is where a user logs into their account
+
 ![chrome_71qSONu2yd](https://user-images.githubusercontent.com/43074374/187064285-5cd41954-4937-4859-8c9b-c3d8459cc91d.png)
 
 ### Logout:
