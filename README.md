@@ -1,6 +1,7 @@
 # Devstories
 Devstories basically a blog site for developers where developers can share their projects and talk about their skills and comment and like each others posts
-For some reason the Responsive image didnt work properly 
+
+![brave_mU9XxAE7JW](https://user-images.githubusercontent.com/43074374/194964377-f787cc41-8d30-488d-8d06-b19e2c265d03.png)
 
 link: https://app-devstories.herokuapp.com/
 
