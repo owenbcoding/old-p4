@@ -1,13 +1,17 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from django.views import generic, View
+from django.views.generic import (
+    View,
+    ListView,
+    UpdateView,
+    DeleteView)
+from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect, HttpResponse
-from .models import Post
-from .forms import CommentForm
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.decorators import login_required
 from django.template import loader
+from .models import Post, Comment
+from .forms import CommentForm
 
-class PostList(generic.ListView):
+class PostList(ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "index.html"
@@ -23,7 +27,6 @@ class PostDetail(View):
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
-        print(post.__dict__)
 
         return render(
             request,
@@ -46,15 +49,15 @@ class PostDetail(View):
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
 
-        comment_form = CommentForm(data=request.POST)
-        if comment_form.is_valid():
-            comment_form.instance.email = request.user.email
-            comment_form.instance.name = request.user.username
-            comment = comment_form.save(commit=False)
-            comment.post = post
-            comment.save()
+        form = CommentForm(data=request.POST)
+        if  form.is_valid():
+            form = form.save(commit=False)
+            form.name = self.request.user
+            form.email = request.user.email
+            form.post = post
+            form.save()
         else:
-            comment_form = CommentForm()
+            form = CommentForm()
 
         return render(
             request,
@@ -63,10 +66,45 @@ class PostDetail(View):
                 "post": post,
                 "comments": comments,
                 "commented": True,
-                "comment_form": comment_form,
-                "liked": liked
+                "form": form,
+                "liked": liked,
+                "comment_form": CommentForm()
             },
         )
+
+    def form_valid(self, form):
+        """ validate form and connect to user """
+        form.instance.created_by = self.request.user
+        return super().form_valid(form)
+
+
+class CommentUpdateView(UpdateView):
+    """ Update comments via update_post.html """
+    model = Comment
+    form_class = CommentForm
+    context_object_name = 'comment'
+    template_name = 'update_post.html'
+
+    def form_valid(self, form):
+        """
+        Success url return to blogpost in question
+        with successfull commentform
+        """
+        self.success_url = f'/{self.get_object().post.slug}/'
+        return super().form_valid(form)
+
+
+class CommentDeleteView(DeleteView):
+    """ Connects comment to DeleteView function """
+    model = Comment
+    template_name = 'delete_comment_post.html'
+    context_object_name = 'comment'
+
+    def get_success_url(self, *args):
+        """ Success url return to blogpost in question """
+        self.success_url = f'/{self.get_object().post.slug}'
+        self.slug = self.get_object().post.slug
+        return reverse_lazy('post_detail', args=[self.slug])
 
 
 class PostLike(View):
