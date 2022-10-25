@@ -6,49 +6,56 @@
 <div class="container">
   <div class="row">
     <div class="col-8 offset-2">
-      <h2 class="text-center my-5">{% if update %}Update post{% else %}Create a post{% endif %}</h2>
+      <h2 class="text-center my-5">{% if update %}Update post{% else %}Create new blog post{% endif %}</h2>
       <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
 
         <div class="form-group">
           {{ form.title.label_tag }}
-          <h3 class="text-center">Title of post</h3>
-          <input type="text" class="form-control {% if form.title.errors %}is-invalid{% endif %}" id="id_title"
-            name="title" value='{{ form.title.value|default:"" }}' placeholder="Title Of Post">
-          {% if form.title.errors %}
-          <div class="invalid-feedback">{{ form.title.errors }}</div>
-          {% endif %}
-        </div>
-        <div class="form-group">
-          {{ form.content.label_tag }}
-          <h3 class="text-center">Main Blog Content</h3>
-          <textarea type="text" class="form-control {% if form.content.errors %}is-invalid{% endif %}" id="id_content"
-            name="content" cols="40" rows="10" placeholder="Main text Content">{{ form.content.value|default:"" }}</textarea>
-          {% if form.content.errors %}
-          <div class="invalid-feedback">{{ form.content.errors }}</div>
-          {% endif %}
-        </div>
+          <div id="div_id_title" class="form-group"> <label for="id_title" class=" requiredField">
+              Title<span class="asteriskField">*</span> </label>
+            <div> <input type="text" name="title" maxlength="200" class="textinput textInput form-control" required=""
+                id="id_title"> </div>
+            {% if form.title.errors %}
+            <div class="invalid-feedback">{{ form.title.errors }}</div>
+            {% endif %}
+          </div>
+          <div class="form-group">
+            {{ form.content.label_tag }}
+            <div id="div_id_content" class="form-group"> <label for="id_content" class=" requiredField">
+                Content<span class="asteriskField">*</span> </label>
+              <div> <textarea name="content" cols="40" rows="10" class="textarea form-control" required=""
+                  id="id_content"></textarea> </div>
+              {% if form.content.errors %}
+              <div class="invalid-feedback">{{ form.content.errors }}</div>
+              {% endif %}
+            </div>
 
-        <div class="form-group">
-          {{ form.image.label_tag }}<br>
-          <input type="file" class="{% if form.image.errors %}is-invalid{% endif %}" id="id_image" name="image"
-            accept="image/*">
-          {% if form.image.errors %}
-          <div class="invalid-feedback">{{ form.image.errors }}</div>
-          {% endif %}
-        </div>
-
-        <form method="post">{% csrf_token %}
-          {{ form.as_p }}
-          <input type="submit" value="Save">
-        </form>
-
-        <button type="submit" class="btn btn-primary">
-          {% if update %}Update the post{% else %}Create a post{% endif %}
-        </button>
+            <div class="form-group">
+              {{ form.image.label_tag }}
+              <div id="div_id_featured_image" class="form-group"> <label for="id_featured_image" class=" requiredField">
+                  Image<span class="asteriskField">*</span> </label>
+                <div> <input type="file" name="featured_image" class="clearablefileinput form-control-file"
+                    id="id_featured_image"> </div>
+                {% if form.image.errors %}
+                <div class="invalid-feedback">{{ form.image.errors }}</div>
+                {% endif %}
+              </div>
+              <div id="div_id_excerpt" class="form-group"> <label for="id_excerpt" class="">
+                  Excerpt*
+                </label>
+                <div> <textarea name="excerpt" cols="40" rows="10" class="textarea form-control"
+                    id="id_excerpt"></textarea> </div>
+                <div class="my-5 text-center">
+                  <button class="btn btn-primary mb-2" type="submit">Create New Post</button>
+                  <!-- <button class="btn btn-primary mb-2" type="update">{% if update %}Update the post{% else %}Update
+                    Post{% endif %}</button>
+                  <button class="btn btn-primary mb-2" type="delete">Delete Post</button> -->
+                </div>
       </form>
 
     </div>
   </div>
 </div>
+
 {% endblock content %}
