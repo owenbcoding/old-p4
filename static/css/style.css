@@ -38,6 +38,10 @@ nav {
     background-color: transparent;
 }
 
+.card-img { 
+    height: 40vh;
+}
+
 .image-container {
     position: relative;
 }
