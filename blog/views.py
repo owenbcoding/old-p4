@@ -10,6 +10,8 @@ from django.contrib.auth.decorators import login_required
 from django.template import loader
 from .models import Post, Comment
 from .forms import CommentForm, BlogPostForm
+from django.contrib import messages
+
 
 class PostList(ListView):
     model = Post
@@ -123,7 +125,7 @@ class PostLike(View):
 @login_required
 def create_post(request):
     """
-    Allow an admin user to create a Blop Post
+    Allow an admin user to create a Blog Post
     """
     if request.user:
 
@@ -133,8 +135,8 @@ def create_post(request):
                 blog_post = form.save(commit=False)
                 blog_post.author = request.user
                 blog_post.save()
-                messages.info(request, 'Blog added successfully!')
-                return redirect('blog')
+                messages.info(request, 'Blog Pending Approval!')
+                return redirect('/')
             else:
                 messages.error(request, 'Please check the form for errors. \
                     Blog failed to add.')
@@ -150,7 +152,6 @@ def create_post(request):
     context = {
         'form': form,
     }
-
     return render(request, template, context)
 
 

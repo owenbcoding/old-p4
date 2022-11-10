@@ -7,51 +7,56 @@
   <div class="row">
     <div class="col-8 offset-2">
       <h2 class="text-center my-5">{% if update %}Update post{% else %}Create new blog post{% endif %}</h2>
-      <form method="post" enctype="multipart/form-data">
+      <form method="post" action="{% url 'create_post' %}" enctype="multipart/form-data">
         {% csrf_token %}
-
         <div class="form-group">
           {{ form.title.label_tag }}
-          <div id="div_id_title" class="form-group"> <label for="id_title" class=" requiredField">
-              Title<span class="asteriskField">*</span> </label>
-            <div> <input type="text" name="title" maxlength="200" class="textinput textInput form-control" required=""
-                id="id_title"> </div>
-            {% if form.title.errors %}
-            <div class="invalid-feedback">{{ form.title.errors }}</div>
-            {% endif %}
+          <div id="div_id_title" class="form-group">
+            <div>
+              <input type="text" name="title" maxlength="200" class="textinput textInput form-control" required=""
+                id="id_title">
+            </div>
           </div>
           <div class="form-group">
-            {{ form.content.label_tag }}
-            <div id="div_id_content" class="form-group"> <label for="id_content" class=" requiredField">
-                Content<span class="asteriskField">*</span> </label>
-              <div> <textarea name="content" cols="40" rows="10" class="textarea form-control" required=""
-                  id="id_content"></textarea> </div>
-              {% if form.content.errors %}
-              <div class="invalid-feedback">{{ form.content.errors }}</div>
+            {{ form.slug.label_tag }}
+            <div id="div_id_slug" class="form-group">
+              <div> <input type="text" name="slug" maxlength="200" class="textinput textInput form-control" required=""
+                  id="id_slug"> </div>
+              {% if form.slug.errors %}
+              <div class="invalid-feedback">{{ form.slug.errors }}</div>
               {% endif %}
             </div>
-
             <div class="form-group">
-              {{ form.image.label_tag }}
-              <div id="div_id_featured_image" class="form-group"> <label for="id_featured_image" class=" requiredField">
-                  Image<span class="asteriskField">*</span> </label>
-                <div> <input type="file" name="featured_image" class="clearablefileinput form-control-file"
-                    id="id_featured_image"> </div>
-                {% if form.image.errors %}
-                <div class="invalid-feedback">{{ form.image.errors }}</div>
+              {{ form.content.label_tag }}
+              <div id="div_id_content" class="form-group">
+                <div>
+                  <textarea name="content" cols="40" rows="10" class="textarea form-control" required=""
+                    id="id_content">
+                  </textarea> 
+                </div>
+                {% if form.content.errors %}
+                <div class="invalid-feedback">{{ form.content.errors }}</div>
                 {% endif %}
               </div>
-              <div id="div_id_excerpt" class="form-group"> <label for="id_excerpt" class="">
-                  Excerpt*
-                </label>
-                <div> <textarea name="excerpt" cols="40" rows="10" class="textarea form-control"
-                    id="id_excerpt"></textarea> </div>
-                <div class="my-5 text-center">
-                  <button class="btn btn-primary mb-2" type="submit">Create New Post</button>
-                  <!-- <button class="btn btn-primary mb-2" type="update">{% if update %}Update the post{% else %}Update
-                    Post{% endif %}</button>
-                  <button class="btn btn-primary mb-2" type="delete">Delete Post</button> -->
+
+              <div class="form-group">
+                <div id="div_id_featured_image" class="form-group">
+                  {{ form.featured_image.label_tag }}
+                  <div> <input type="file" name="featured_image" class="clearablefileinput form-control-file"
+                      id="id_featured_image"> </div>
+                  {% if form.featured_image.errors %}
+                  <div class="invalid-feedback">{{ form.featured_image.errors }}</div>
+                  {% endif %}
                 </div>
+                <div id="div_id_excerpt" class="form-group">
+                  {{ form.excerpt.label_tag }}
+                  <div>
+                    <textarea name="excerpt" cols="40" rows="10" class="textarea form-control" id="id_excerpt">
+                  </textarea>
+                  </div>
+                  <div class="my-5 text-center">
+                    <button class="btn btn-primary mb-2" type="submit">Create New Post</button>
+                  </div>
       </form>
 
     </div>

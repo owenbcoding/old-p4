@@ -41,7 +41,7 @@
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link active text-white" href="{% url 'newPost' %}">New Post</a>
+                        <a class="nav-link active text-white" href="{% url 'create_post' %}">New Post</a>
                     </li>
                     <li class="nav-item">
                         <form method="post" action="{% url 'account_logout' %}">
@@ -99,8 +99,8 @@
           <i class="fab fa-youtube-square ms-3"></i></p> -->
     </footer>
     <script>
+        let messages = document.getElementByID("msg");
         setTimeout(function() {
-            let messages = document.getElementByID("msg");
             let alert = new bootstrap.Alert(messages);
             alert.close();
         },3000);
