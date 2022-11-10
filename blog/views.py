@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views.generic import (
     View,
     ListView,
@@ -9,7 +9,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.template import loader
 from .models import Post, Comment
-from .forms import CommentForm
+from .forms import CommentForm, BlogPostForm
 
 class PostList(ListView):
     model = Post
@@ -118,17 +118,7 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
-    
-@login_required
-def newPost(request):
 
-    c = {}
-
-    # Get the template
-    t = loader.get_template('./new_post.html')
-
-    # Get the context
-    return HttpResponse(t.render(c, request))
 
 @login_required
 def create_post(request):
@@ -138,7 +128,7 @@ def create_post(request):
     if request.user:
 
         if request.method == 'POST':
-            form = PostForm(request.POST, request.FILES)
+            form = BlogPostForm(request.POST, request.FILES)
             if form.is_valid():
                 blog_post = form.save(commit=False)
                 blog_post.author = request.user
@@ -149,19 +139,20 @@ def create_post(request):
                 messages.error(request, 'Please check the form for errors. \
                     Blog failed to add.')
         else:
-            form = PostForm()
+            form = BlogPostForm()
     else:
         messages.error(
             request, 'Sorry, you do not have permission to do that.')
         return redirect(reverse('home'))
 
-    template = 'add_blog.html'
+    template = 'new_post.html'
 
     context = {
         'form': form,
     }
 
     return render(request, template, context)
+
 
 @login_required
 def edit_blog(request, blog_post_id):
