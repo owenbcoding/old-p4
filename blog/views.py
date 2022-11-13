@@ -190,8 +190,9 @@ def edit_blog(request, blog_post_id):
     return render(request, template, context)
 
 
-def delete_blog(request, blog_post_id):
-    """User can delet their own blog post"""
+@login_required
+def delete_post(request, blog_post_id):
+    """User can delete their own blog post"""
     if request.method == "POST":
         blog_post = get_object_or_404(Post, pk=blog_post_id)
         blog_post.delete()
@@ -199,4 +200,4 @@ def delete_blog(request, blog_post_id):
         return render(request, 'delete_blog.html')
     messages.success(request, 'The blog has been deleted successfully!')
 
-    return redirect('blog')
+    return redirect('/')
