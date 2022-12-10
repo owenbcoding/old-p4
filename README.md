@@ -77,7 +77,7 @@ Devstories - Database Schema
 Before I started to code this project I created a Diagram Entity Relationship - Database Schema using dbdiagram.
 I created this to easier understand the database models that I was going to create for this project.
 
-![image](https://user-images.githubusercontent.com/43074374/187066336-94946348-b08e-4b25-b9db-3a320d31719b.png)
+![brave_jeEdffptO2](https://user-images.githubusercontent.com/43074374/206861630-859a1eb2-f9bf-4816-bb3f-faddc256fea6.png)
 
 # Existing Features
 # Navbar
