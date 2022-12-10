@@ -27,11 +27,8 @@ Devstories - Balsamiq Wireframe
 
 - Desktop View 
 
-![BalsamiqWireframes_I87Zo05LXd](https://user-images.githubusercontent.com/43074374/187065389-3ba38110-1f69-4041-8ec6-23006f2d83b0.png)
 
 - Mobile View
-
-![BalsamiqWireframes_04pnexitYF](https://user-images.githubusercontent.com/43074374/187065475-6c22e79e-b841-4a0b-b634-b6352800cb6b.png)
 
 
 ## Github - User Project Kanban Board
@@ -77,7 +74,7 @@ Devstories - Database Schema
 Before I started to code this project I created a Diagram Entity Relationship - Database Schema using dbdiagram.
 I created this to easier understand the database models that I was going to create for this project.
 
-![brave_jeEdffptO2](https://user-images.githubusercontent.com/43074374/206861630-859a1eb2-f9bf-4816-bb3f-faddc256fea6.png)
+![brave_xsAaPItHxn](https://user-images.githubusercontent.com/43074374/206878073-86db79f4-da15-4c49-bd1f-f48d4f52632d.png)
 
 # Existing Features
 # Navbar
@@ -104,7 +101,7 @@ I created this to easier understand the database models that I was going to crea
 ![chrome_HsAF9staQK](https://user-images.githubusercontent.com/43074374/187064149-8ba81b23-d252-40c6-8660-5ee8079708e4.png)
 
 ### Footer:
-![chrome_pyyN8XexhH](https://user-images.githubusercontent.com/43074374/186425816-be8616ef-4f8d-467c-a967-3ae0ffc9b799.png)
+![6ivcARPoFS](https://user-images.githubusercontent.com/43074374/206862099-bdb5cc5b-2caa-4566-ad9a-8fd7bf7d2133.png)
 
 ## User:
 ### Register account:
