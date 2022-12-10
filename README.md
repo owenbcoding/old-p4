@@ -27,8 +27,15 @@ Devstories - Balsamiq Wireframe
 
 - Desktop View 
 
+![BalsamiqWireframes_LpCYKT0Lq8](https://user-images.githubusercontent.com/43074374/206879661-10b1dc2a-5d5a-4e35-b2eb-86483b84e492.png)
+
+- Detailed Blog page
+
+![BalsamiqWireframes_sawVBQvfOP](https://user-images.githubusercontent.com/43074374/206879769-9d1f6a75-0263-4638-bb4a-ebcec53740df.png)
 
 - Mobile View
+
+![BalsamiqWireframes_Pizyme05dy](https://user-images.githubusercontent.com/43074374/206879998-e44bcb9c-eb3a-4cf3-acbd-7debbdba69b1.png)
 
 
 ## Github - User Project Kanban Board
@@ -182,8 +189,10 @@ I created this to easier understand the database models that I was going to crea
 
 # Unfixed Bugs
 - Bug 1
-The first bug I found was the likes not be able to show when I liked on a post but it seemed to work for the comments as you can see the zero next to the comments icon
-![chrome_OODnVDh7pt](https://user-images.githubusercontent.com/43074374/186948199-266c2740-731d-47f8-afd1-b080760aba79.png)
+  A bug I found on the mobile page of the detailed blog page is that the image of that blog post is hidden
+
+  
+![brave_xHXxNYTEDE](https://user-images.githubusercontent.com/43074374/206880043-32c78dcf-a993-4ff4-80dc-63472638a580.png)
 
 
 # Credit 
