@@ -1,19 +1,47 @@
 {% extends "base.html" %}
-{% load static %}
+{% load crispy_forms_tags %}
 
 {% block content %}
 
 <div style="margin:80px">
-    <h1>Contact</h1>
-    <h4>Contact us directly if you have any questions</h4>
-    <p>
-        Please write your name, email address and a message below if you have any questions.
-        One of our staff members will be happy to contact you directly and answer your questions as soon as possible. 
-    </p>
-    <form method="post" action="{% url 'contact' %}">
-    {% csrf_token %}
-        {{form.as_p}}
-        <button type="submit">Submit</button>
+    <div class="text-center">
+        <h1>Contact</h1>
+        <h4>Contact us directly if you have any questions</h4>
+        <p>
+            Please write your name, email address and a message below if you have any questions.
+        </p>
+        <p>
+            One of our staff members will be happy to contact you directly and answer your questions as soon as
+            possible.
+        </p>
+    </div>
+    <form class="mt-3 container my-5 px-5 w-25" action="{% url 'contact' %}" method="POST" id="profile-update-form">
+        <h1 class="text-center">Contact us</h1>
+        {% csrf_token %}
+        {{ form|crispy }}
+        <div>
+            <h3 class="text-center">First name</h3>
+            <input type="text" name="first_name" maxlength="20" class="textinput textInput form-control" required=""
+                id="id_title">
+        </div>
+        <div>
+            <h3 class="text-center">Last name</h3>
+            <input type="text" name="last_name" maxlength="20" class="textinput textInput form-control" required=""
+                id="id_title">
+        </div>
+        <div>
+            <h3 class="text-center">Email</h3>
+            <input type="text" name="email_address" maxlength="60" class="textinput textInput form-control" required=""
+                id="id_title">
+        </div>
+        <div>
+            <h3 class="text-center">Message</h3>
+            <input type="text" name="body" maxlength="200" class="textinput textInput form-control" required=""
+                id="id_title">
+        </div>
+        <div class="d-flex justify-content-center py-3">
+            <button class="btn btn-black rounded-0 text-uppercase float-right">Submit</button>
+        </div>
     </form>
 </div>
 
