@@ -191,6 +191,11 @@ I created this to easier understand the database models that I was going to crea
 - Bug 1
   A bug I found on the mobile page of the detailed blog page is that the image of that blog post is hidden
 
+- Bug 2
+  There is an issue with getting the contact form working when a user tries to send an email it will fail
+
+  ![image](https://user-images.githubusercontent.com/43074374/206898471-f1b19a58-5b03-46d2-9bf5-6809bf7179a0.png)
+
   
 ![brave_xHXxNYTEDE](https://user-images.githubusercontent.com/43074374/206880043-32c78dcf-a993-4ff4-80dc-63472638a580.png)
 
