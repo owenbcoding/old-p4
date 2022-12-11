@@ -1,4 +1,4 @@
-from .models import Comment, Post
+from .models import Comment, Post, Contact
 from django.utils.translation import gettext_lazy as _
 from django import forms
 
@@ -22,7 +22,9 @@ class BlogPostForm(forms.ModelForm):
 
 
 class ContactForm(forms.Form):
-    first_name = forms.CharField(max_length=50)
-    last_name = forms.CharField(max_length=50)
-    email_address = forms.EmailField(max_length=150)
-    body = forms.CharField(max_length=2000)
+    class Meta:
+        model = Contact
+        fields = ('first_name', 'last_name', 'email_address', 'body')
+        lables = {
+            'first_name': _('test'), 'last_name': _(''), 'email_address': _(''), 'body': _(''),
+        }
