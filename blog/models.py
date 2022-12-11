@@ -53,7 +53,7 @@ class Comment(models.Model):
         return reverse('post_detail', kwargs={'pk': self.pk})
 
 
-class ContactForm(models.Model):
+class Contact(models.Model):
     """ Custom model """
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
