@@ -11,6 +11,8 @@ from django.template import loader
 from .models import Post, Comment
 from .forms import CommentForm, BlogPostForm
 from django.contrib import messages
+from .forms import ContactForm
+from django.core.mail import send_mail, BadHeaderError
 
 
 class PostList(ListView):
@@ -155,39 +157,39 @@ def create_post(request):
     return render(request, template, context)
 
 
-@login_required
-def edit_blog(request, blog_post_id):
-    """
-    Allow all users to edit the blogs they created
-    """
-    if request.user:
+# @login_required
+# def edit_blog(request, blog_post_id):
+#     """
+#     Allow all users to edit the blogs they created
+#     """
+#     if request.user:
 
-        blog_post = get_object_or_404(Post, pk=blog_post_id)
+#         blog_post = get_object_or_404(Post, pk=blog_post_id)
 
-        if request.method == 'POST':
-            form = PostForm(request.POST, request.FILES, instance=blog_post)
-            if form.is_valid():
-                form.save()
-                messages.success(request, 'Blog post updated successfully!')
-                return redirect('blog')
-            else:
-                messages.error(request, 'Please check the form for errors. \
-                    Blog post failed to update.')
-        else:
-            form = PostForm(instance=blog_post)
-            messages.info(request, f'Editing {blog_post.title}')
-    else:
-        messages.error(request, 'Sorry, you do not have permission for that.')
-        return redirect(reverse('home'))
+#         if request.method == 'POST':
+#             form = PostForm(request.POST, request.FILES, instance=blog_post)
+#             if form.is_valid():
+#                 form.save()
+#                 messages.success(request, 'Blog post updated successfully!')
+#                 return redirect('blog')
+#             else:
+#                 messages.error(request, 'Please check the form for errors. \
+#                     Blog post failed to update.')
+#         else:
+#             form = PostForm(instance=blog_post)
+#             messages.info(request, f'Editing {blog_post.title}')
+#     else:
+#         messages.error(request, 'Sorry, you do not have permission for that.')
+#         return redirect(reverse('home'))
 
-    template = 'edit_blog.html'
+#     template = 'edit_blog.html'
 
-    context = {
-        'form': form,
-        'blog_post': blog_post,
-    }
+#     context = {
+#         'form': form,
+#         'blog_post': blog_post,
+#     }
 
-    return render(request, template, context)
+#     return render(request, template, context)
 
 
 @login_required
@@ -201,3 +203,27 @@ def delete_post(request, blog_post_id):
     messages.success(request, 'The blog has been deleted successfully!')
 
     return redirect('/')
+
+
+def contact(request):
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            subject = "Website Inquiry" 
+            body = {
+                'first_name': form.cleaned_data['first_name'],
+                'last_name': form.cleaned_data['last_name'],
+                'email': form.cleaned_data['email_address'],
+                'body': form.cleaned_data['body'], 
+                }
+            body = "\n".join(body.values())
+            
+            try:
+                send_mail(subject, body, 'admin@example.com', ['admin@example.com']) 
+            except BadHeaderError:
+                return HttpResponse('Invalid header found.')
+                
+                return redirect('home')
+    
+    form = ContactForm()
+    return render(request, 'contact.html', {'form': form})
