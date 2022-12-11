@@ -207,23 +207,15 @@ def delete_post(request, blog_post_id):
 
 def contact(request):
     if request.method == 'POST':
-        form = ContactForm(request.POST)
+        contact = contact(request.POST)
         if form.is_valid():
-            subject = "Website Inquiry" 
-            body = {
-                'first_name': form.cleaned_data['first_name'],
-                'last_name': form.cleaned_data['last_name'],
-                'email': form.cleaned_data['email_address'],
-                'body': form.cleaned_data['body'], 
+            form.save()
+        body = {
+                'first_name': form.data['first_name'],
+                'last_name': form.data['last_name'],
+                'email': form.data['email_address'],
+                'body': form.data['body'], 
                 }
-            body = "\n".join(body.values())
-            
-            try:
-                send_mail(subject, body, 'admin@example.com', ['admin@example.com']) 
-            except BadHeaderError:
-                return HttpResponse('Invalid header found.')
                 
-                return redirect('home')
-    
     form = ContactForm()
     return render(request, 'contact.html', {'form': form})
