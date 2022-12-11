@@ -51,3 +51,11 @@ class Comment(models.Model):
     def get_absolute_url(self):
         """ Returns comment with primary key"""
         return reverse('post_detail', kwargs={'pk': self.pk})
+
+
+class ContactForm(models.Model):
+    """ Custom model """
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+    email_address = models.EmailField(max_length=150)
+    body = models.TextField(max_length=2000)
