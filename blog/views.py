@@ -207,7 +207,7 @@ def delete_post(request, blog_post_id):
 
 def contact(request):
     if request.method == 'POST':
-        contact = contact(request.POST)
+        contact = (request.POST)
         if form.is_valid():
             form.save()
         body = {
