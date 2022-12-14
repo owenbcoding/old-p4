@@ -8,4 +8,4 @@ node_modules/
 .github/
 cloudinary_python.txt
 settings.py
-codestar/settings.py
+devstories/settings.py

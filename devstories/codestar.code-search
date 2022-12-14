@@ -1,0 +1,6 @@
+# Query: codestar
+
+1 result - 1 file
+
+manage.py:
+  9:     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'devstories.settings')
